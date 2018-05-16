@@ -14,7 +14,7 @@ contract FakToken is ERC223 {
     uint public constant FAKRATE = 200;
     mapping(address => uint256) private balances;
     
-    constructor() public {
+    function FakToken() public {
         owner = msg.sender;
     }
     
